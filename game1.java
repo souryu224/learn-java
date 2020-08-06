@@ -10,11 +10,11 @@ public class game1 {
         int n = -1 ;
         int count;
 
-        hitNumber = (int)(Math.random() * 100);
+        hitNumber = (int)(Math.random() * 100) + 1;
 
         while( hitNumber != n ){
 
-            System.out.print("0~100 n:");
+            System.out.print("1~100 n:");
             n = Integer.parseInt(br.readLine());
 
             if(hitNumber < n)
